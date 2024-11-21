@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Lobster&family=Niconne&family=Outfit:wght@100..900&family=Parkinsans:wght@300..800&family=Passion+One:wght@400;700;900&family=Poiret+One&display=swap");
+
+.row .card {
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.14);
+  transition: 0.2s ease-in-out;
+  &:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.274);
+  }
+  contain: content;
+  font-family: "Parkinsans", sans-serif;
+}
+
+.row button a {
+  color: black;
+  text-decoration: none;
+  &:hover {
+    text-shadow: 1px 1px 2px rgb(48, 48, 48);
+    color: rgb(255, 255, 255);
+  }
+}
+
+.row button {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(255, 225, 0);
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  border: 0;
+  font-size: 1rem;
+  color: rgb(42, 42, 42);
+}
